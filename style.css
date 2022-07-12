@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+    text-align:center;
+    background-color: black;
+    color:aliceblue;
+    padding-top:20px;
+    padding-bottom:20px;
+    border:10px dotted white;
+}
+
+.poster{
+    background-color: #fff;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.div-text{
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 2.3em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 25vh;
+}
+.quote{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#poster-image{
+    order:2;
+    flex-grow: 1;
+    min-width:45%;
+    align-self: flex-end;
+    max-width: 500px;    
+}
+#steve-jobs-image{
+    max-width: 100%;
+    box-sizing: border-box;
+    float:right; 
+}
+
+
+#biography{
+    background-color: #000;
+  padding-bottom: 2vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+#biography-content{
+    color: #fff;
+    font-family: 'Lora', serif;
+    margin-top: 5.5em;
+    margin-bottom: 2em;
+    padding-left: 30px;
+}
+.biocontainer{
+    margin:auto;
+    width:40%;
+}
+#biographytitle{
+    font-size:4em;
+    color:white;
+}
+#biographytext{
+    margin-top:2.5em;
+    color:white;
+    /* text-align: justify; */
+}
+h1{
+    font-size: 5.0rem;
+}
+h5{
+    font-size:2.1rem;
+   
+}
+
+#author-text{
+    color:#fff;
+    font-size:1.2em;
+    text-align:center;
+    margin-top: 2vw;
+}
+a{
+    color:#1EAEDB;
+
+}
+a{
+    background-color: transparent;
+}
+
